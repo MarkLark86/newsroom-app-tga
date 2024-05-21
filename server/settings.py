@@ -30,6 +30,10 @@ CORE_APPS = [
     ]
 ] + ["tga.register"]
 
+INSTALLED_APPS = [
+    "newsroom.auth.saml",
+]
+
 BLUEPRINTS = ["tga.register"] + [
     blueprint
     for blueprint in DEFAULT_BLUEPRINTS
